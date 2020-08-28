@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
     function mobileSliderCategory() {
         if (window.innerWidth <= 1200 && sliderCategory.dataset.mobile == 'false') {
             mySwiperCategory = new Swiper(sliderCategory, {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 slideClass: 'swiper-slide',
                 pagination: {
                     el: '.category .swiper-pagination',
@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
                       slidesPerView: 2,
                       spaceBetween: 5,
                     },
-                    991: {
+                    767: {
                       slidesPerView: 3
                     }
                 }
