@@ -1,0 +1,77 @@
+.slider-pagination {
+	height: 27px;
+	width: 16rem;
+	position: relative;
+}
+.swiper-pagination {
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.swiper-button-next, .swiper-button-prev {
+    top: -27px;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: none;
+    font-size: 0;
+
+    background: url(../img/arrLeft.png) no-repeat center /contain;
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+	width: 50px;
+	height: 25px;
+}
+.swiper-button-next:after {
+    background: url(../img/arrRight.png) no-repeat center /contain;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 0;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    left: 0;
+}
+/*dot*/
+.swiper-pagination-bullet-active {
+	width: 28px!important;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.77);
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 6px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.47);
+    margin: 0 3px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    width: auto;
+}
+.slider-banner {
+	height: 85%;
+}
+
+/**/
+.cards-categories .swiper-slide {
+    width: 25%;
+    padding: 0 5px;
+}
+
+/**/
+.reviews .slider-pagination,
+.team .slider-pagination,
+.category .slider-pagination {
+    margin: auto;
+}
+.reviews .swiper-pagination,
+.team .swiper-pagination,
+.category .swiper-pagination {
+    top: 27px;
+}
+.reviews .swiper-button-next, .reviews .swiper-button-prev,
+.team .swiper-button-next, .team .swiper-button-prev,
+.category .swiper-button-next, .category .swiper-button-prev {
+    top: 50px;
+}
